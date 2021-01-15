@@ -13,7 +13,7 @@
   line-height: 100px;
 }
 
-.one, .two, .three, .four, .five, .six, .seven, .eight {
+.common {
   position: absolute;
   height: 100px;
   width: 100px;
