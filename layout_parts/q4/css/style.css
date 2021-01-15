@@ -4,70 +4,50 @@
 .q4-box {
   background-color: #ecf1f2;
   padding: 20px;
-  text-align: center;
+  box-sizing: border-box;
 }
 
-.top {
+.bar {
   width: 100%;
-  margin-bottom: 20px;
   display: table;
   table-layout: fixed;
+}
+
+.bar:first-child {
+  margin-bottom: 20px;
+}
+
+.common {
+  display: table-cell;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .top-left {
   width: 100px;
   background-color: #fdc8b8;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 .top-center {
-  width: 100%;
   background-color: #e0abd9;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
 }
 
 .top-right {
   width: 100px;
   background-color: #b6d8ed;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
   box-sizing: border-box;
 }
 
-.bottom {
-  width: 100%;
-  display: table;
-  table-layout: fixed;
-}
-
 .bottom-left {
-  width: 100%;
   background-color: #e5d32e;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
 }
 
 .bottom-center {
-  width: 100%;
   background-color: #ec8f9a;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
 }
 
 .bottom-right {
   width: 500px;
   background-color: #8fdcad;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 20px;
-  box-sizing: border-box;
 }
 /* 回答はここに書いてね */
