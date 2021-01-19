@@ -61,7 +61,7 @@
 
 
 
-  .position-1-box {
+  .position {
     position: relative;
   }
   
@@ -78,10 +78,6 @@
 
 
 
-
-  .position-2-box {
-    position: relative;
-  }
   
   .position-2 {
     padding: 10px;
