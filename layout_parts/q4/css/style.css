@@ -11,10 +11,11 @@
   width: 100%;
   display: table;
   table-layout: fixed;
+  margin-top: 20px;
 }
 
 .bar:first-child {
-  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .common {
@@ -23,30 +24,29 @@
   padding: 20px 0;
 }
 
-.top-left {
+.pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.top-center {
+.purple {
   background-color: #e0abd9;
 }
 
-.top-right {
+.blue {
   width: 100px;
   background-color: #b6d8ed;
-  box-sizing: border-box;
 }
 
-.bottom-left {
+.yellow {
   background-color: #e5d32e;
 }
 
-.bottom-center {
+.red {
   background-color: #ec8f9a;
 }
 
-.bottom-right {
+.green {
   width: 500px;
   background-color: #8fdcad;
 }
