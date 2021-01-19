@@ -26,15 +26,12 @@
   padding: 10px;
 }
 
-thead th {
+.q3-table thead th, 
+.q3-table tbody th {
   padding: 10px;
 }
 
-tbody th {
-  padding: 10px;
-}
-
-tbody tr:nth-child(2n) {
+tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
