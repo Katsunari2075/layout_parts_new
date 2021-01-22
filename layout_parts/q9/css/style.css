@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q9-bubble {
+.q9-balloon {
   width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.q9-bubble::before, .q9-bubble::after {
+.q9-balloon::before, .q9-balloon::after {
   position: absolute;
   width: 0;
   height: 0;
@@ -20,13 +20,13 @@
   content: "";
 }
 
-.q9-bubble::before {
+.q9-balloon::before {
   bottom: -45px;
   left: 30px;
   border-top-color: #222;
 }
 
-.q9-bubble::after {
+.q9-balloon::after {
   bottom: -38px;
   left: 30px;
   border-top-color: #fff;
