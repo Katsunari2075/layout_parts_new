@@ -12,20 +12,16 @@
     overflow: hidden;
   }
 
-  .transition:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
-  }
-
   .car-img {
     transition: all .5s;
   }
 
-  .car-img:hover {
+  .transition:hover .car-img {
     transform: scale(1.5);
   }
 
-  .car-img:hover + .animation {
-    transform: translateY(-333px);
+  .transition:hover .animation {
+    bottom: 0;
   }
 
   .animation {
