@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9-bubble {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+}
 
+.q9-bubble::before, .q9-bubble::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+
+.q9-bubble::before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+
+.q9-bubble::after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
 /* 回答はここに書いてね */
